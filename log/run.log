@@ -1,0 +1,49 @@
+[2021-12-29T17:16:17.345] [INFO] console - app is running on http://127.0.0.1:3000
+[2021-12-29T17:16:17.380] [INFO] console - 数据库链接成功
+[2021-12-29T17:16:29.177] [INFO] console - app is running on http://127.0.0.1:3000
+[2021-12-29T17:16:29.213] [INFO] console - 数据库链接成功
+[2021-12-29T17:17:37.775] [INFO] console - app is running on http://127.0.0.1:3000
+[2021-12-29T17:17:37.813] [INFO] console - 数据库链接成功
+[2021-12-29T17:20:45.979] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:20:46.017] [INFO] console - 数据库链接成功
+[2021-12-29T17:21:42.549] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:21:43.944] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:22:36.206] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:22:37.551] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:24:02.832] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:24:47.935] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:25:31.852] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:25:31.891] [ERROR] db.js - 数据库链接成功
+[2021-12-29T17:26:48.716] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:26:48.758] [ERROR] db.js - 数据库链接成功
+[2021-12-29T17:26:51.505] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:26:51.546] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:26:52.669] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:26:52.709] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:27:08.354] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:27:08.393] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:27:53.992] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:27:54.029] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:28:12.452] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:28:12.493] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:28:22.044] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:28:22.080] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:28:31.987] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:28:32.050] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:28:36.948] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:28:36.986] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:28:39.972] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:28:40.009] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:29:05.617] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:29:05.659] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:29:07.092] [INFO] app.js - app is running on http://127.0.0.1:3000 1111
+[2021-12-29T17:29:07.127] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:29:26.322] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:29:26.360] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:29:52.634] [INFO] console - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 987 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-29T17:29:52.790] [ERROR] console - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-29T17:30:10.365] [WARN] console - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-29T17:31:09.958] [WARN] console - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-29T17:52:48.401] [INFO] app.js - app is running on http://127.0.0.1:3000
+[2021-12-29T17:52:48.438] [INFO] db.js - 数据库链接成功
+[2021-12-29T17:52:53.248] [WARN] console - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"

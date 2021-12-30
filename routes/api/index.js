@@ -1,14 +1,12 @@
 const express = require("express");
 
 const router = express.Router();
-const login = require("./login");
-const register = require("./register");
+const acount = require("./acount");
+const user = require("./user");
 
 
-router.get("/", (req, res) => {
-  res.send("api相关入口")
-});
-router.use("/login", login);
-router.use("/register", register);
+
+router.use("/acount", acount);
+router.use("/user", user);
 
 module.exports = router;

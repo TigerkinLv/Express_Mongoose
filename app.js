@@ -3,8 +3,9 @@ const ejs = require("ejs");
 const session = require("express-session");
 const MongoStore = require("connect-mongo");// session 分布式架构获取，将session保存在mongodb
 const path = require("path");
-const log4js = require('log4js');
+const log4js = require('log4js');// 日志
 const log4js_config = require('./config/log4js_config');
+require('module-alias/register'); // 设置路径的别名
 
 //接管console日志，自动区分类别
 log4js.configure(log4js_config);
@@ -61,8 +62,9 @@ app.all('*', (req, res, next) => {
 });
 
 // 配置静态web目录
-app.use(express.static("static"));
-app.use("/views", express.static("views"))
+app.use(express.static("public"));
+app.use("/views", express.static("views"));
+app.use("/static", express.static("static"));
 // 获取post 提交的数据
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -71,7 +73,6 @@ app.use(express.json());
 
 app.use("/admin", admin);
 app.use("/api", api);
-app.use("/", admin);
 
 
 app.listen(port, () => log.info(`app is running on http://127.0.0.1:${port}`))

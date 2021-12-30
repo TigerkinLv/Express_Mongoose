@@ -1,17 +1,14 @@
 const express = require("express");
 
 const router = express.Router();
-
-const register = require("./register");
 const login = require("./login");
+const register = require("./register");
+
 
 router.get("/", (req, res) => {
-  res.render("login.html");
+  res.send("api相关入口")
 });
-
-router.use("/register", register);
 router.use("/login", login);
-
-
+router.use("/register", register);
 
 module.exports = router;

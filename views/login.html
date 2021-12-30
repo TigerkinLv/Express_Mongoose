@@ -5,22 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/login.css">
   <title>登录页面</title>
 </head>
 
 <body>
-  <form action="/api/login/login.do" method="post">
-    <label>
-      用户名 <input type="text" name="uname">
-    </label>
-    <br>
-    <label>
-      密码 <input type="password" name="upwd">
-    </label>
-    <br>
-
-    <button type="submit">登录</button>
-  </form>
+  <div class="loginBox">
+    <div class="systemName">后台管理系统</div>
+    <form action="/admin/login/login" method="post" class="loginForm">
+      <input type="text" name="uname" placeholder="用户名" class="lv_input">
+      <input type="password" name="upwd" placeholder="密码" class="lv_input">
+      <button type="submit" class="lv_btn">登录</button>
+    </form>
+  </div>
 </body>
 
 </html>

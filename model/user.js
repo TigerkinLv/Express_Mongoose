@@ -1,4 +1,3 @@
-const { model } = require("./db");
 const mongoose = require("./db");
 
 const UserSchema = mongoose.Schema({
@@ -16,8 +15,7 @@ const UserSchema = mongoose.Schema({
     trim: true,
     validate: {
       validator: (params) => {
-        console.log('8888', params);
-        return params != ""
+        return params != "";
       },
       message: "密码不能为空"
     }

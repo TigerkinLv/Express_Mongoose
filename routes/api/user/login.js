@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const UserModel = require('../../model/user');
+const UserModel = require('@model/user');
 const md5 = require("md5");
 const log4js = require('log4js');
 const path = require('path');
@@ -21,7 +21,7 @@ router.post("/login.do", (req, res) => {
           data: doc
         });
       } else {
-        res.send({
+        res.json({
           code: 0,
           msg: "未查询到当前用户",
         });

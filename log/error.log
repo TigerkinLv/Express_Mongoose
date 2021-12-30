@@ -1,3 +1,81 @@
 [2021-12-29T17:25:31.891] [ERROR] db.js - 数据库链接成功
 [2021-12-29T17:26:48.758] [ERROR] db.js - 数据库链接成功
 [2021-12-29T17:29:52.790] [ERROR] console - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T09:58:06.340] [ERROR] console - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T09:58:23.076] [ERROR] db.js - 数据库链接失败 MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\connection.js:797:32)
+    at D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\index.js:341:10
+    at promiseOrCallback (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\helpers\promiseOrCallback.js:10:12)
+    at Mongoose._promiseOrCallback (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\index.js:1167:10)
+    at Mongoose.connect (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\index.js:340:20)
+    at Object.<anonymous> (D:\MyAssets\GitHub\Express_Mongoose\model\db.js:7:10)
+    at Module._compile (internal/modules/cjs/loader.js:1156:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14) {
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+[2021-12-30T10:25:09.276] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:25:09.901] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:25:18.881] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:25:40.118] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:27:02.877] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:27:05.999] [ERROR] console - ::ffff:127.0.0.1 - - "GET /static/css/resigter.css HTTP/1.1" 404 162 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T10:50:08.958] [ERROR] console - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T11:23:50.328] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 404 157 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T11:38:01.322] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 766 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T11:38:25.170] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1586 "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:03:12.992] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1625 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:03:38.009] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1643 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:04:21.476] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1731 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:04:48.680] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1745 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:05:52.794] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1643 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:06:37.278] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1643 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:06:57.415] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1754 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:07:00.022] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1754 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:07:00.934] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1754 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:07:13.560] [ERROR] console - ::ffff:127.0.0.1 - - "POST /admin/login/login HTTP/1.1" 500 1760 "http://127.0.0.1:3000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:19:25.605] [ERROR] console - ::ffff:127.0.0.1 - - "GET /api/login/login HTTP/1.1" 404 154 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:19:30.326] [ERROR] console - ::ffff:127.0.0.1 - - "GET /api/login/login.do HTTP/1.1" 404 157 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:19:42.802] [ERROR] console - ::ffff:127.0.0.1 - - "GET /api/login/register.do HTTP/1.1" 404 160 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:19:48.742] [ERROR] console - ::ffff:127.0.0.1 - - "GET /api/login/login.do HTTP/1.1" 404 157 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+[2021-12-30T15:34:58.948] [ERROR] console - ::ffff:127.0.0.1 - - "POST /login/login.do HTTP/1.1" 400 982 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T15:36:23.215] [ERROR] console - ::ffff:127.0.0.1 - - "POST /login/login.do HTTP/1.1" 404 154 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T15:37:03.276] [ERROR] console - ::ffff:127.0.0.1 - - "POST /login/login.do HTTP/1.1" 404 154 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T15:37:25.583] [ERROR] console - ::ffff:127.0.0.1 - - "POST /login/login.do HTTP/1.1" 404 154 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T15:46:43.735] [ERROR] console - ::ffff:127.0.0.1 - - "POST /api/login/login.do HTTP/1.1" 400 982 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T15:47:18.472] [ERROR] console - ::ffff:127.0.0.1 - - "POST /api/login/login.do HTTP/1.1" 400 982 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T16:12:31.545] [ERROR] register.js - 用户注册 {
+  phone: ValidatorError: Validator failed for path `phone` with value `1311111111`
+      at validate (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\schematype.js:1277:13)
+      at D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\schematype.js:1260:7
+      at Array.forEach (<anonymous>)
+      at SchemaString.SchemaType.doValidate (D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\schematype.js:1210:14)
+      at D:\MyAssets\GitHub\Express_Mongoose\node_modules\mongoose\lib\document.js:2700:18
+      at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+    properties: {
+      message: 'Validator failed for path `phone` with value `1311111111`',
+      type: 'user defined',
+      validator: [Function: validate],
+      path: 'phone',
+      value: '1311111111'
+    },
+    kind: 'user defined',
+    path: 'phone',
+    value: '1311111111',
+    reason: undefined,
+    [Symbol(mongoose:validatorError)]: true
+  }
+}
+[2021-12-30T16:17:42.653] [ERROR] console - ::ffff:127.0.0.1 - - "DELETE /api/register/logOff.do HTTP/1.1" 404 164 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T17:12:52.164] [ERROR] console - ::ffff:127.0.0.1 - - "POST /api/register/register.do HTTP/1.1" 404 164 "" "apifox/1.0.0 (https://www.apifox.cn)"
+[2021-12-30T17:13:14.615] [ERROR] console - ::ffff:127.0.0.1 - - "DELETE /api/register/logoff.do HTTP/1.1" 404 164 "" "apifox/1.0.0 (https://www.apifox.cn)"
